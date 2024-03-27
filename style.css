@@ -2,6 +2,13 @@ body {
   font-family: Arial;
 }
 
+.green {
+  color: green;
+}
+.underline {
+  text-decoration: underline purple wavy;
+}
+
 #mainImg {
   width: 35%;
 }
@@ -11,6 +18,9 @@ body {
   background-color: lightgray;
   width: 200px;
   padding: 1rem;
+}
+.yellowBG {
+  background-color: yellow;
 }
 
 .boxLink {
