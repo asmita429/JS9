@@ -1,0 +1,40 @@
+Document Object Model DOM
+the DOM represents a document with a logical tree. (parent, child relation)
+It allows us to manipulate or change webpage content(HTML elements).
+
+Basic HTML
+<body>
+    <div>
+        <h1>Todo</h1>
+    </div>
+    <ul>
+        <li>Learn</li>
+        <li>Code</li>
+        <li>Grow</li>
+    </ul>
+</body>
+
+Structure: //tree version of HTML code, all elements are node and all nodes are individual obj
+document
+    |
+   Body
+    |
+div     ul
+|        |
+h1    li li li
+
+
+console.log(document) // this will show document as a HTML file
+console.dir(document) // this will show document as an object with its methods
+then all: HTMLALLCOLLECTION, find all tags there, which is in current HTML file
+
+
+inside console
+document.all[8].innerText;
+'Spider Man'
+document.all[8].innerText = "Peter pan";
+'Peter pan'
+
+document.all[8].tagName;
+h1
+
